@@ -10,6 +10,7 @@ export class SignupController implements Controller {
       if (!httpRequest.body[field]) {
         return badRequest(new MissingParamError(field))
       }
+      console.log('teste')
     }
   }
 }
